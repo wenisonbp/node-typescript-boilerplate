@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wenisonbp/node-typescript-boilerplate.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Wenison Bandeira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wenisonbp/node-typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/wenisonbp/node-typescript-boilerplate#readme"
+  "homepage": "https://github.com/wenisonbp/node-typescript-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
 }
